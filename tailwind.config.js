@@ -9,9 +9,15 @@ module.exports = {
     ],
 
     theme: {
+
+        fontFamily:{
+            'mont': ['Montserrat']
+        },
+
         container: {
             center: true,
         },
+
         extend: {
             gridTemplateColumns: {
                 // Simple 16 column grid
@@ -24,6 +30,7 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
         },
+
     },
 
     plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
