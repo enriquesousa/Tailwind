@@ -7,7 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <title>Tailwind</title>
-
+    <style>
+        .imagen{
+            background-image: url("{{ asset('img/webdev6.jpg') }}");
+            height: 400px;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 <body>
 
@@ -98,7 +106,7 @@
     </div> --}}
 
     {{-- Estilos en Listas --}}
-    <div class="container">
+    {{-- <div class="container">
 
         <h1 class="text-xl font-bold text-left md:text-center lg:text-right mb-4">Este es el Título</h1>
 
@@ -113,6 +121,20 @@
         </ul>
         <p class="capitalize">Jose enrique sousa salgado</p>
 
+    </div> --}}
+
+    {{-- Opciones de Background Tailwind --}}
+    {{-- <div class="container">
+        <h1 class="text-center text-3xl font-bold mb-3">Backgrounds</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus illum quisquam dolor voluptatibus iusto vero repellat sapiente at sed blanditiis consectetur, praesentium modi, in reiciendis molestias ipsa veritatis odit sunt?</p>
+        <div class="imagen bg-cover bg-right border-4 border-blue-600 border-dashed bg-clip-content p-4"></div>
+    </div> --}}
+
+    {{-- Opciones de Background Degradado --}}
+    <div class="container">
+        <div class="bg-gradient-to-r from-blue-500 via-green-600 to-yellow-400 text-center font-extrabold text-5xl bg-clip-text text-transparent">
+            Hola Mundo!
+        </div>        
     </div>
     
 </body>

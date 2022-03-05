@@ -26,8 +26,8 @@ database/database.sqlite
 - Cursos/Victor Arana Flores/Tailwind/Tailwind.md
 
 **Progreso:**
-<progress value="33" max="100"></progress>
-- 33%
+<progress value="41" max="100"></progress>
+- 41%
 
 # Temario - Curso Tailwind desde cero
 # Introducción
