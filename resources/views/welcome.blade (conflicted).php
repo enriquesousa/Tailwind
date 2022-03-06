@@ -179,37 +179,31 @@
     {{-- </div> --}}
     
     {{-- Tablas en Tailwind --}}
-    <div class="container">
+    <table>
 
-        <table class="table w-full border-separate lg:border-collapse table-fixed">
-            <thead>
-                <tr>
-                    <th class="w-1/4">Pais</th>
-                    <th class="w-1/4">Ciudad</th>
-                    <th class="w-1/2">Descripción</th>
-                </tr>
-            </thead>
-    
-            <tbody>
-                <tr>
-                    <td>Perú</td>
-                    <td>Lima</td>
-                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro laboriosam assumenda, sapiente expedita temporibus officiis amet labore aliquid eveniet? Ratione, cumque pariatur. Voluptatibus magnam quisquam culpa nihil voluptate assumenda.</td>
-                </tr>
-                <tr>
-                    <td>Colombia</td>
-                    <td>Bogota</td>
-                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam deserunt dolorum excepturi eius. Quas harum laborum itaque cum, vero illum ducimus consectetur! Ut nesciunt esse iste rerum asperiores error tempore!</td>
-                </tr>
-                <tr>
-                    <td>España</td>
-                    <td>Madrid</td>
-                    <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illum, aliquid tenetur obcaecati neque autem tempora facere ab modi consectetur minima assumenda velit nobis, quas quia eum explicabo vel facilis!</td>
-                </tr>
-            </tbody>
-        </table>
+        <thead>
+            <tr>
+                <th>Pais</th>
+                <th>Ciudad</th>
+            </tr>
+        </thead>
 
-    </div>
+        <tbody>
+            <tr>
+                <td>Peru</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+    </table>
 
 </body>
-</h
+</html>
