@@ -131,10 +131,53 @@
     </div> --}}
 
     {{-- Opciones de Background Degradado --}}
-    <div class="container">
+    {{-- <div class="container">
         <div class="bg-gradient-to-r from-blue-500 via-green-600 to-yellow-400 text-center font-extrabold text-5xl bg-clip-text text-transparent">
             Hola Mundo!
         </div>        
+    </div> --}}
+
+    {{-- Bordes en Tailwind --}}
+    <div class="container mx-auto pt-5">
+        {{-- border con hover--}}
+        {{-- <div class="w-64 h-64 bg-gray-400 border-8 border-blue-800 hover:border-indigo-500">
+        </div> --}}
+        {{-- border left --}}
+        {{-- <div class="w-64 h-64 bg-gray-400 border-l-8 border-blue-800">
+        </div> --}}
+        {{-- border rounded lg --}}
+        {{-- <div class="w-64 h-64 bg-gray-400 border-8 border-blue-800 rounded-lg">
+        </div> --}}
+        {{-- border Circulo --}}
+        {{-- <div class="w-64 h-64 bg-gray-400 border-8 border-blue-800 rounded-full">
+        </div> --}}
+        {{-- border modificando el Circulo --}}
+        {{-- <div class="w-32 h-64 bg-gray-400 border-8 border-blue-800 rounded-full">
+        </div> --}}
+        {{-- border modificando el Circulo --}}
+        <div class="w-64 h-32 bg-gray-400 border-8 border-blue-800 rounded-full">
+        </div>
+        <div>
+            {{-- agrega lineas divisorias con control de ancho de linea entre parrafos --}}
+            <div class="divide-y-4 divide-gray-600 divide-dotted">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis blanditiis, neque harum hic qui ducimus delectus, dicta, mollitia culpa vero molestias. Ipsam ipsum ut mollitia officiis atque asperiores inventore numquam.</p>
+                <p>Sapiente, ut, sit doloribus soluta inventore enim repudiandae natus voluptas animi repellat nemo et minima dolor rem. Est, nihil odio doloribus libero placeat distinctio ut sunt facere ipsam eius dolor!</p>
+                <p>Corrupti recusandae perferendis nihil dolore error totam beatae doloremque deleniti? Dolores quasi deserunt accusamus quas, excepturi id, aspernatur quibusdam praesentium sapiente fuga voluptatibus illo consequatur laborum distinctio nisi explicabo! Odio?</p>
+                <p>Maxime consequatur aperiam ipsa dolorum quae eveniet incidunt tenetur, aspernatur illo voluptas excepturi corrupti expedita a repudiandae voluptatem id nemo animi molestiae, enim, eum quia. Laborum, aliquam. Commodi, nemo nobis.</p>
+                <p>Minima, tempore voluptate labore nobis explicabo laboriosam quam blanditiis incidunt repellendus quas quia nam corrupti distinctio in quisquam mollitia adipisci dolor sed? Officia eveniet accusantium recusandae, provident delectus fuga illum?</p>
+            </div>
+
+            {{-- menu de navegacion, usar(emet) a*5{Link $} --}}
+            <nav class="divide-x-2 divide-blue-600 mt-5">
+                <a href="">Link 1</a>
+                <a href="">Link 2</a>
+                <a href="">Link 3</a>
+                <a href="">Link 4</a>
+                <a href="">Link 5</a>
+            </nav>
+
+        </div>
+
     </div>
     
 </body>
